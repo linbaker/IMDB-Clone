@@ -7,7 +7,10 @@ import NavTabs from './NavTabs';
 
 const NavBar = () => {
   var navBarStyles = {
-    height: '100px'
+    height: '100px',
+    width: '1000px',
+    margin: 'auto',
+    paddingBottom: '200px'
   }
 
   var logoStyles = {
@@ -23,6 +26,7 @@ const NavBar = () => {
   return(
     <div style={navBarStyles}>
       <AppBar style={{ backgroundColor: '#000000' }} position="static">
+        <img width='1000' src={require('./assets/navbarad.png')}/>
         <Toolbar>
           <div style={logoStyles}>
             <img height='80px' src={require("./assets/logo.png")} alt="IMDB Logo"/>
