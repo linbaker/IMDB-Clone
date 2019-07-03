@@ -1,9 +1,10 @@
 import React from 'react';
-import Trailers from './Trailers'
+import Trailers from './Trailers';
+import NewlyAdded from './NewlyAdded';
 
 function MainPage() {
   const mainPageStyles = {
-    backgroundColor: 'white',
+    backgroundColor: '#F8F8F8',
     height: '100vh',
     margin: '0'
   }
@@ -11,8 +12,7 @@ function MainPage() {
   return(
     <div style={mainPageStyles}>
       <Trailers/>
-      <h1>THIIIIIINNNNGS</h1>
-
+      <NewlyAdded/>
     </div>
   )
 }

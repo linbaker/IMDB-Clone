@@ -7,7 +7,7 @@ import MainPage from './MainPage';
 
 function App() {
   const containerStyles = {
-    backgroundColor: 'white',
+    backgroundColor: '#F0F0F0',
     width: '1000px',
     marginLeft: 'auto',
     marginRight: 'auto',

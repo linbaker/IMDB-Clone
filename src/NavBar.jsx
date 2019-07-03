@@ -10,14 +10,13 @@ const NavBar = () => {
     height: '100px',
     width: '1000px',
     margin: 'auto',
-    paddingBottom: '200px'
+    paddingBottom: '178px'
   }
 
   var logoStyles = {
     height: '80px',
     marginTop: '50px',
   }
-
 
   return(
     <div style={navBarStyles}>
