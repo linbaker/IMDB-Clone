@@ -15,7 +15,6 @@ function NavTabs() {
     paddingRight: '50px'
   }
   var topRowStyles = {
-    border: '5px solid red',
     width: '500px'
   }
   return(
